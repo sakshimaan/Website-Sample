@@ -1,9 +1,0 @@
-<html>
-<head>
-<title>HTML BASICS</title>
-</head>
-<body>
-<p>Hyper Text Markup Language</p><br/>
-<p>The ability to code in HTML is essential for any web professional.</p>
-</body>
-</html>
