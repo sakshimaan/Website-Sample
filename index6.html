@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook-log in or sign up</title>
+        <style type = "text/css">
+            #container { width: 1350px;height: 90px; background-color:#4863A0;position: absolute;border-bottom-style:hidden; border-bottom-color: black}
+            p.facebook { position:fixed; color: white; margin-left: 100px; font-size: 40pt;margin-top: 15px}
+            #name { position:absolute; margin-left: 700px ;color: white;margin-top: 15px}
+            p.img { position: absolute; margin-left: 115px;font-size: 20pt;margin-top: 150px;margin-right: 900px; color: darkslateblue }
+            #account { position: absolute;margin-left: 750px;margin-right: 50px;margin-top: 100px}
+            body { background-color: #F0FFFF }
+            #submit { position: absolute;background-color:aqua;margin-left: 750px;margin-right: 50px; margin-top:570px}
+    </style>
+    </head>
+<body>
+    <div id = "container"></div>
+    <p class="facebook"><b>facebook</b></p>
+    <div id = "name">
+        <form>
+            Email or phone : <input type ="email" name = "email" maxlength="30"/>  password : <input type ="password" name="paasword" maxlength="10"/>      <input type="submit" value="login"/><br><p align="center" color ="blue" >Forgotten account? </p>
+        </form></div>
+    <p class="img"><b>Facebook helps you connect and share with the people in your life.</b><br><br><img src ="fb.png" ></p>
+    <div id="account">
+        <p style=font-size: 60pt><b><h1>Create an account</h1></b></p>
+    <p>It's free and always will be.</p>
+        <form>
+            <input type="text" name = "name" placeholder="First name" maxlength="20"/> <br>  <br>
+            <input type="text" name="name" placeholder="last name" maxlength="20"/><br><br>
+            <input type="email" name="email" placeholder="Email address" maxlength="30"/><br><br>
+            <input type="password" name="passwd" placeholder="Password" maxlength="10" /><br><br>
+            <h2><b>Birthday</b></h2>
+            <input type="date" name="date"/>  Why do I need to provide my date of birth?<br><br>
+            Male : <input type="radio" name="sex" value="male"/>  Female : <input type="radio" name="sex" value="female"/><br><br>
+            <b>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</b><br><br><br><br><b>Create a Page for a celebrity, band or business.</b></form></div>
+    <div id="submit"> <input type="submit" value="Sign Up"/>
+    </div>
+    </body></html>
